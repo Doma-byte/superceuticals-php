@@ -1,3 +1,14 @@
+<head>
+<style>
+    @media (min-width: 767px) {
+        .collapse.navbar-collapse {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+    }
+</style>
+</head>
 <div class="preloader">
     <div class="inner">
         <div class="image">
@@ -57,7 +68,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#headerMenu" aria-controls="headerMenu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="headerMenu" style="display: flex; flex-direction: row; justify-content: space-between;">
+                <div class="collapse navbar-collapse" id="headerMenu">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" href="index.php">Home</a>
