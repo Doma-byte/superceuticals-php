@@ -2,7 +2,42 @@
     <!-- Footer Start -->
 
     <head>
-<style>
+    <style>
+    .policy ul {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+    }
+
+    .policy ul li {
+        position: relative;
+        padding: 5px;
+    }
+
+    .policy ul li:not(:last-child)::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        right: -5px;
+        transform: translateY(-50%);
+        height: 50%;
+        width: 2.5px;
+        background-color: #fff;
+    }
+    @media (max-width: 971px) {
+        .policy ul li {
+            /* Reset padding and font-size for larger screens */
+            padding: 5px;
+            font-size: smaller;
+        }
+
+        .policy ul li:not(:last-child)::after {
+            right: -6px;
+            height: 80%;
+        }
+    }
+
 </style>
 </head>
     <footer>
@@ -69,12 +104,12 @@
                     <div class="col-lg-4 col-md-12">
                         <p class="m-0 right">Designed by <a href="https://www.1webexperts.com/" target="_blank"> 1Web Experts</a></p>
                     </div>
-                    <div class="row align-items-center" style="margin-top: 5px; margin-left: 15px;">
+                    <div class="policy" style="margin-left: 15px;">
                         <ul style="display: flex; justify-content: center;">
-                            <li style="margin-right: 30px;"><a class="footer_policy" href="privacy-policy.php" style="color: #fff;">Privacy Policy</a></li>
-                            <li style="margin-right: 30px;"><a class="footer_policy" href="terms-conditions.php" style="color: #fff;">Terms & Conditions</a></li>
-                            <li style="margin-right: 30px;"><a class="footer_policy" href="refund-cancellation.php" style="color: #fff;">Refunds & Cancellation</a></li>
-                            <li style="margin-right: 30px;"><a class="footer_policy" href="#" style="color: #fff;">Pricing Policy</a></li>
+                            <li style="margin-right: 10px;"><a class="footer_policy" href="privacy-policy.php" style="color: #fff;">Privacy Policy</a></li>
+                            <li style="margin-right: 10px;"><a class="footer_policy" href="terms-conditions.php" style="color: #fff;">Terms & Conditions</a></li>
+                            <li style="margin-right: 10px;"><a class="footer_policy" href="refund-cancellation.php" style="color: #fff;">Refunds & Cancellation</a></li>
+                            <li style="margin-right: 10px;"><a class="footer_policy" href="#" style="color: #fff;">Pricing Policy</a></li>
                         </ul>
                     </div>
                 </div>
