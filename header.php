@@ -57,7 +57,7 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#headerMenu" aria-controls="headerMenu" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="headerMenu">
+                <div class="collapse navbar-collapse" id="headerMenu" style="display: flex; flex-direction: row; justify-content: space-between;">
                     <ul class="navbar-nav">
                         <li class="nav-item">
                             <a class="nav-link" href="index.php">Home</a>
@@ -93,8 +93,10 @@
                         <li class="nav-item">
                             <a class="nav-link" href="contact.php">Contact Us</a>
                         </li>
-                    </ul>
-                    <ul class="socialLinks">
+                        </ul>
+
+                        <ul class="navbar-nav">
+                        <ul class="socialLinks">
                         <li>
                             <a href="#"><i class="lab la-facebook-f"></i></a>
                         </li>
@@ -106,9 +108,8 @@
                         </li>
                     </ul>
 
-                </div>
-                <li class="nav-item dropdown" style="margin-left: 50px; margin-top: 5px; padding: 5px;">
-                    <a class="nav-link" style= "color: red; text-decoration: none; font-size:large; font-weight: bold;" href="#">Login<i class="las la-angle-down" style="margin-left: 5px;"></i></a>
+                        <li class="nav-item dropdown" style="margin-top: auto; margin-bottom: auto;">
+                    <a class="nav-link login-button" href="#">Login<i class="las la-angle-down" style="margin-left: 5px;"></i></a>
                     <ul class="dropdown-menu">
                         <li>
                             <a href="http://app.superceuticals.in/auth/patient/login" target="_blank">Patient</a>
@@ -124,6 +125,8 @@
                         </li>
                     </ul>
                     </li>
+                    </ul>
+                </div>
             </nav>
         </div>
     </div>
