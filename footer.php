@@ -66,17 +66,18 @@
                         <p class="m-0 right">Designed by <a href="https://www.1webexperts.com/" target="_blank"> 1Web Experts</a></p>
                     </div>
                 </div>
-                <div class="row">
-                <div class="col-lg-12">
-                    <div class="footer-links">
-                        <ul style="list-style: none; padding: 0; margin: 0; display: flex; justify-content:center;">
-                            <li style="margin-right: 15px;"><a href="privacy-policy.php" style="color: #fff; text-decoration: none; font-size: 14px;">Privacy Policy</a></li>
-                            <li style="margin-right: 15px;"><a href="terms-conditions.php" style="color: #fff; text-decoration: none; font-size: 14px;">Terms & Conditions</a></li>
-                            <li style="margin-right: 15px;"><a href="refund-cancellation.php" style="color: #fff; text-decoration: none; font-size: 14px;">Refunds & Cancellation</a></li>
-                        </ul>
-                    </div>
+                <div class="row" style="margin-top: 10px; margin-left: 15px;">
+            <div class="col-lg-12">
+                <div class="footer-links">
+                    <ul style="list-style: none; padding: 0; margin: 0; display: flex; justify-content: center;">
+                        <li style="margin-right: 30px;"><a href="privacy-policy.php" style="color: #fff; text-decoration: none; font-size: 16px;">Privacy Policy</a></li>
+                        <li style="margin-right: 30px;"><a href="terms-conditions.php" style="color: #fff; text-decoration: none; font-size: 16px;">Terms & Conditions</a></li>
+                        <li style="margin-right: 30px;"><a href="refund-cancellation.php" style="color: #fff; text-decoration: none; font-size: 16px;">Refunds & Cancellation</a></li>
+                        <li style="margin-right: 30px;"><a href="#" style="color: #fff; text-decoration: none; font-size: 16px;">Pricing Policy</a></li>
+                    </ul>
                 </div>
             </div>
+        </div>
             </div>
         </div>
     </footer>
