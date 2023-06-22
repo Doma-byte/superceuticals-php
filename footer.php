@@ -1,6 +1,10 @@
 
     <!-- Footer Start -->
 
+    <head>
+<style>
+</style>
+</head>
     <footer>
         <div class="footerTopWrapper">
             <div class="container">
@@ -65,19 +69,15 @@
                     <div class="col-lg-4 col-md-12">
                         <p class="m-0 right">Designed by <a href="https://www.1webexperts.com/" target="_blank"> 1Web Experts</a></p>
                     </div>
+                    <div class="row align-items-center" style="margin-top: 5px; margin-left: 15px;">
+                        <ul style="display: flex; justify-content: center;">
+                            <li style="margin-right: 30px;"><a class="footer_policy" href="privacy-policy.php" style="color: #fff;">Privacy Policy</a></li>
+                            <li style="margin-right: 30px;"><a class="footer_policy" href="terms-conditions.php" style="color: #fff;">Terms & Conditions</a></li>
+                            <li style="margin-right: 30px;"><a class="footer_policy" href="refund-cancellation.php" style="color: #fff;">Refunds & Cancellation</a></li>
+                            <li style="margin-right: 30px;"><a class="footer_policy" href="#" style="color: #fff;">Pricing Policy</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="row" style="margin-top: 10px; margin-left: 15px;">
-            <div class="col-lg-12">
-                <div class="footer-links">
-                    <ul style="list-style: none; padding: 0; margin: 0; display: flex; justify-content: center;">
-                        <li style="margin-right: 30px;"><a href="privacy-policy.php" style="color: #fff; text-decoration: none; font-size: 16px;">Privacy Policy</a></li>
-                        <li style="margin-right: 30px;"><a href="terms-conditions.php" style="color: #fff; text-decoration: none; font-size: 16px;">Terms & Conditions</a></li>
-                        <li style="margin-right: 30px;"><a href="refund-cancellation.php" style="color: #fff; text-decoration: none; font-size: 16px;">Refunds & Cancellation</a></li>
-                        <li style="margin-right: 30px;"><a href="#" style="color: #fff; text-decoration: none; font-size: 16px;">Pricing Policy</a></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
             </div>
         </div>
     </footer>
