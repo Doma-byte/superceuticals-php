@@ -126,13 +126,13 @@
                             <a href="http://app.superceuticals.in/auth/patient/login" target="_blank">Patient</a>
                         </li>
                         <li>
-                            <a href="http://app.superceuticals.in/auth/login" target="_blank">Technician</a>
+                            <a href="http://app.superceuticals.in/auth/technician/login" target="_blank">Technician</a>
                         </li>
                         <li>
-                            <a href="http://app.superceuticals.in/auth/pathlogist" target="_blank">Pathologist</a>
+                            <a href="http://app.superceuticals.in/auth/pathologist/login" target="_blank">Pathologist</a>
                         </li>
                         <li>
-                            <a href="http://app.superceuticals.in/auth/centre" target="_blank">Centre</a>
+                            <a href="http://app.superceuticals.in/auth/centre/login" target="_blank">Centre</a>
                         </li>
                     </ul>
                     </li>
